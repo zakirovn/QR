@@ -1,0 +1,58 @@
+/* outfit-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/outfit-v11-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/outfit-v11-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Outfit" sans-serif;
+}
+.back {
+  display: flex;
+  justify-content: center;
+  background-color: #d5e1ef;
+  width: 1440px;
+  height: 800px;
+}
+.info-back-image {
+  background-color: #2c7dfa;
+  width: 288px;
+  height: 260px;
+  border-radius: 10px;
+  margin: 16px;
+}
+.info {
+  margin-top: 152px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  width: 320px;
+  height: 497px;
+  box-shadow: 0px 25px 25px 0px #0000000c;
+}
+.info-image {
+  padding-top: 50px;
+}
+
+.info-title {
+  width: 288px;
+  padding-left: 16px;
+}
+.info-description {
+  width: 256px;
+  padding-left: 32px;
+  color: #7d889e;
+}
